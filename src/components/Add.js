@@ -30,7 +30,7 @@ function Add() {
     const result = await axios.post("http://localhost:8000/task/create", body);
     alert(result.data);
     console.log(result);
-    location("/");    
+    location("/");             
   };              
   return (
     <div className="container p-5 w-50">
